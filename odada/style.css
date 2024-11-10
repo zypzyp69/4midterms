@@ -1,0 +1,33 @@
+body {
+	font-family: "Arial";
+
+}
+input {
+	font-size: 1.5em;
+	height: 50px;
+	width: 200px;
+}
+table, th, td {
+	border:1px solid black;
+}
+
+
+table {
+	width: 80%;
+	margin: auto;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 12px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+th {
+	background-color: #f8b400;
+	color: white;
+}
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+
